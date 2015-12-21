@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+	RewriteRule .* – [F,L]
+	RewriteCond %{HTTP_HOST} ^www\.example\.com$
+	RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+index\.php\?section=([a-z0-9]+)&title=([a-z0-9]+) [NC]
+	RewriteRule ^/?$ "http\:\/\/example\.com\/" [R=301,L]
+
+	RewriteRule ^/?$ application/controllers/public/index.php [NC,L]
+	RewriteRule ^home/?$ application/controllers/public/index.php [NC,L]
+	RewriteRule ^add/?$ application/controllers/public/add.php [NC,L]
+	RewriteRule ^show/?$ application/controllers/public/show.php [NC,L]
+	RewriteRule ^([a-z0-9]+)/?$ application/controllers/public/index.php?short=$1 [NC,L]
+
+</IfModule>

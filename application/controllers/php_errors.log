@@ -1,0 +1,32 @@
+[20-Dec-2015 15:06:53 UTC] PHP Warning:  require_once(home/ubuntu/workspace/parameters.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/application/controllers/public/set.php on line 3
+[20-Dec-2015 15:06:53 UTC] PHP Stack trace:
+[20-Dec-2015 15:06:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/application/controllers/public/index.php:0
+[20-Dec-2015 15:06:53 UTC] PHP   2. include() /home/ubuntu/workspace/application/controllers/public/index.php:2
+[20-Dec-2015 15:06:53 UTC] PHP Fatal error:  require_once(): Failed opening required 'home/ubuntu/workspace/parameters.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/application/controllers/public/set.php on line 3
+[20-Dec-2015 15:06:53 UTC] PHP Stack trace:
+[20-Dec-2015 15:06:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/application/controllers/public/index.php:0
+[20-Dec-2015 15:06:53 UTC] PHP   2. include() /home/ubuntu/workspace/application/controllers/public/index.php:2
+[20-Dec-2015 15:07:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'urls' in /home/ubuntu/workspace/application/models/class.database.php on line 17
+[20-Dec-2015 15:07:48 UTC] PHP Stack trace:
+[20-Dec-2015 15:07:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/application/controllers/public/index.php:0
+[20-Dec-2015 15:07:48 UTC] PHP   2. include() /home/ubuntu/workspace/application/controllers/public/index.php:2
+[20-Dec-2015 15:07:48 UTC] PHP   3. require_once() /home/ubuntu/workspace/application/controllers/public/set.php:4
+[20-Dec-2015 15:07:48 UTC] PHP   4. require_once() /home/ubuntu/workspace/library/initialize.php:8
+[20-Dec-2015 15:07:48 UTC] PHP   5. require_once() /home/ubuntu/workspace/application/models/class.database_object.php:2
+[20-Dec-2015 15:07:48 UTC] PHP   6. MySQLDatabase->__construct() /home/ubuntu/workspace/application/models/class.database.php:74
+[20-Dec-2015 15:07:48 UTC] PHP   7. MySQLDatabase->open_connection() /home/ubuntu/workspace/application/models/class.database.php:12
+[20-Dec-2015 15:07:48 UTC] PHP   8. mysqli_connect() /home/ubuntu/workspace/application/models/class.database.php:17
+[20-Dec-2015 15:07:48 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/application/models/class.database.php on line 19
+[20-Dec-2015 15:07:48 UTC] PHP Stack trace:
+[20-Dec-2015 15:07:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/application/controllers/public/index.php:0
+[20-Dec-2015 15:07:48 UTC] PHP   2. include() /home/ubuntu/workspace/application/controllers/public/index.php:2
+[20-Dec-2015 15:07:48 UTC] PHP   3. require_once() /home/ubuntu/workspace/application/controllers/public/set.php:4
+[20-Dec-2015 15:07:48 UTC] PHP   4. require_once() /home/ubuntu/workspace/library/initialize.php:8
+[20-Dec-2015 15:07:48 UTC] PHP   5. require_once() /home/ubuntu/workspace/application/models/class.database_object.php:2
+[20-Dec-2015 15:07:48 UTC] PHP   6. MySQLDatabase->__construct() /home/ubuntu/workspace/application/models/class.database.php:74
+[20-Dec-2015 15:07:48 UTC] PHP   7. MySQLDatabase->open_connection() /home/ubuntu/workspace/application/models/class.database.php:12
+[20-Dec-2015 15:07:48 UTC] PHP   8. mysqli_error() /home/ubuntu/workspace/application/models/class.database.php:19
+[20-Dec-2015 15:08:52 UTC] PHP Parse error:  syntax error, unexpected ''TinyURL";' (T_ENCAPSED_AND_WHITESPACE) in /home/ubuntu/workspace/library/parameters.php on line 45
+[20-Dec-2015 15:08:52 UTC] PHP Stack trace:
+[20-Dec-2015 15:08:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/application/controllers/public/index.php:0
+[20-Dec-2015 15:08:52 UTC] PHP   2. include() /home/ubuntu/workspace/application/controllers/public/index.php:2
