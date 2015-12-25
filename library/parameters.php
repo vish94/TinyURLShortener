@@ -46,7 +46,5 @@ $description = 'TinyURL';
 
 $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
-//$meta_keywords = "DTU, Delhi, Delhi Technological University, Society, Society of Robotics, Robotics, Student, Robots, Electronics, Electrical, Mechanical";
-
 $time = strftime("%Y-%m-%d %H:%M:%S", time()+1800);
 ?>
