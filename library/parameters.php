@@ -4,9 +4,9 @@ if ($_SERVER['HTTP_HOST']=="localhost") {
 	$dir_site = 'http://localhost/tinyurl/';
 	$baseUrl = 'http://localhost/tinyurl/';
 } else {
-	$dir_root = '/home/ubuntu/workspace/';
-	$dir_site = 'https://tinyurl-vish94.c9users.io/';
-	$baseUrl = 'https://tinyurl-vish94.c9users.io/';
+	$dir_root = 'your-root-folder';
+	$dir_site = 'your-domain.com/';
+	$baseUrl = 'your-domain.com/';
 } 
 
 $cdn = $dir_site.'assets/';
