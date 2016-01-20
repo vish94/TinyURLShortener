@@ -5,4 +5,4 @@ Currently the short URLs dont have any specific number of alphabets. You can pro
 
 <b> Database: </b> <br/>
 Table name: urls <br/>
-Columns: id(INT PRIMARY AUTO_INCREMENT), shorturl(VARCHAR 50), url (TEXT)  
+Columns: id(INT PRIMARY AUTO_INCREMENT), shorturl(VARCHAR 50), url (TEXT) 
